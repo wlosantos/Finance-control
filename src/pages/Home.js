@@ -24,7 +24,7 @@ const list = [
 export default () => {
   return (
     <View className="w-full">
-      <Header name="Wendel Lopes" />
+      <Header name="W3n Bank" />
       <Balence balence={9756.82} expenses={-765.32} />
 
       <Action />
