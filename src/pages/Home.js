@@ -2,6 +2,7 @@ import { Text, View, FlatList } from 'react-native';
 import Header from '../components/Header';
 import Balence from '../components/Balence';
 import Movements from '../components/Movements';
+import Action from '../components/Action';
 
 const list = [
   {
@@ -26,6 +27,7 @@ export default () => {
       <Header name="Wendel Lopes" />
       <Balence balence={9756.82} expenses={-765.32} />
 
+      <Action />
       <Text className="text-xl font-bold px-4 mt-4">Últimas Movimentações</Text>
 
       <FlatList
